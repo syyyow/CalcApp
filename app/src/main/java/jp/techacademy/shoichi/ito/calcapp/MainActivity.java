@@ -35,10 +35,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-    EditText edittext1 = (EditText) findViewById(R.id.edittext1);
-    EditText edittext2 = (EditText) findViewById(R.id.edittext2);
-
-
 
     //num1、num2、answerの宣言
     double num1;
@@ -53,6 +49,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         //SecondActivityへ遷移する処理
         Intent intent = new Intent(this,SecondActivity.class);
+
+        EditText edittext1 = (EditText) findViewById(R.id.edittext1);
+        EditText edittext2 = (EditText) findViewById(R.id.edittext2);
 
 
         try {
